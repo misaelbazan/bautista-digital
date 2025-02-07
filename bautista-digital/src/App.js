@@ -6,6 +6,7 @@ import SectionSummary from './components/SectionSummary/SectionSummary';
 import Footer from './components/Footer/Footer';
 import Noticias from './components/Noticias/Noticias';
 import Recursos from './components/Recursos/Recursos';
+import Testimonios from './components/Testimonios/Testimonios';
 
 const Home = () => (
   <>
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/noticias" element={<Noticias />} />
           <Route path='/recursos' element={<Recursos />} />
+          <Route path='/testimonios' element={<Testimonios />} />
         </Routes>
         <Footer />
       </div>
